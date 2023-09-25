@@ -12,16 +12,35 @@ Logo, a pesquisa e aprofundamento tecnológico deve fazer parte do planejamento 
 Para introduzir os profissionais de educação nesta modalidade, os seguintes capítulos e informações são colocados a saber:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Sessões
+   :maxdepth: 4
+   :caption: CLIENTE
 
+   home
    sobre
-   metodologias
+   carrinho
+   pagina-confirmacao
+
+.. toctree::
+   :maxdepth: 3
+   :caption: PRODUTOR
+
+   painel-produtor
+   perfil
+   vendas-produtor
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sessões2
+   :caption: ADMIN
 
-   registro
-   tecnologias
+   painel-admin
+   vendas-admin
+
+.. toctree::
+   :maxdepth: 1
+   :caption: LOGIN
+
+   login
+   
+
+
 
