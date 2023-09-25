@@ -7,13 +7,14 @@ Manual de utilização do software EcoWebFeira
 ===========================================================================
 
 
-Logo, a pesquisa e aprofundamento tecnológico deve fazer parte do planejamento docente e educação discente, ou seja, deve-se observar o tempo de integração e ambientação das tecnologias para os estudantes, leva-se tempo, então, bom senso e colaboração entre professores pode ajudar, para assim evitarmos uso de um emaranhado de tecnologias diferentes, deixando o estudante sobrecarregado de informações e habilidades que este deverá aprender em um tempo muito curto a maioria das vezes, logo, a interdisciplinaridade deve ser observada, para que os recursos sejam previamente bem definidos e esclarecidos, enviando-se perca na produtividade e consistência do ensino.
+Este projeto consiste em desenvolver um site que funcione como uma feira online para promover a agricultura familiar/orgânica do município de Santa Teresa, por meio de uma parceria com a Associação Santa Teresa de Agroecologia (ASTRAL). 
+O público-alvo são consumidores interessados em produtos orgânicos e provenientes da agricultura familiar, pessoas que buscam uma alimentação saudável e sustentável, turistas que visitam Santa Teresa, além dos próprios produtores da região, que poderão divulgar seus produtos de forma mais ampla e eficiente, expandir sua rede de clientes e ampliar seus negócios.
 
-Para introduzir os profissionais de educação nesta modalidade, os seguintes capítulos e informações são colocados a saber:
+Para introduzir os clientes, produtores e administradores ao nosso sistema, os seguintes capítulos e informações são colocados a saber:
 
 .. toctree::
    :maxdepth: 4
-   :caption: CLIENTE
+   :caption: Cliente
 
    home
    sobre
@@ -22,7 +23,7 @@ Para introduzir os profissionais de educação nesta modalidade, os seguintes ca
 
 .. toctree::
    :maxdepth: 3
-   :caption: PRODUTOR
+   :caption: Produtor
 
    painel-produtor
    perfil
@@ -30,14 +31,14 @@ Para introduzir os profissionais de educação nesta modalidade, os seguintes ca
 
 .. toctree::
    :maxdepth: 2
-   :caption: ADMIN
+   :caption: Admin
 
    painel-admin
    vendas-admin
 
 .. toctree::
    :maxdepth: 1
-   :caption: LOGIN
+   :caption: Login
 
    login
    
