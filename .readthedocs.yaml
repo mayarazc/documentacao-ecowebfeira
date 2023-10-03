@@ -1,0 +1,11 @@
+version: 2
+
+# Nome do projeto (substitua 'seuprojeto' pelo nome do seu projeto)
+project: documentacao_ecowebfeira
+
+# URL do repositório do seu projeto
+repository: https://github.com/mayarazc/documentacao-ecowebfeira.git
+
+# Build documentation in the "docs/" directory with Sphinx
+sphinx:
+  configuration: source/conf.py
