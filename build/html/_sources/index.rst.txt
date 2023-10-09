@@ -35,6 +35,7 @@ Para introduzir os clientes, produtores e administradores ao nosso sistema, os s
 
    painel-admin
    vendas-admin
+   entregas-admin
 
 .. toctree::
    :maxdepth: 1
