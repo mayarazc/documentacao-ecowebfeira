@@ -11,12 +11,12 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=3518a2a5"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
-        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="_static/translations.js?v=000972dd"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Buscar" href="search.html" />
@@ -55,7 +55,13 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Produtor</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Painel do Produtor</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Painel do Produtor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cadastro-de-produto">Cadastro de Produto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consultar-vendas">Consultar Vendas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alterar-participacao">Alterar Participação</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#seus-produtos">Seus Produtos</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="perfil.html">Perfil</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vendas-produtor.html">Vendas do Produtor</a></li>
 </ul>
@@ -94,7 +100,67 @@
            <div itemprop="articleBody">
              
   <section id="painel-do-produtor">
-<h1>Painel do Produtor<a class="headerlink" href="#painel-do-produtor" title="Link to this heading"></a></h1>
+<h1>Painel do Produtor<a class="headerlink" href="#painel-do-produtor" title="Link permanente para este cabeçalho"></a></h1>
+<p>O painel do produtor é a primeira página que aparecerá após o login com o acesso de produtor. Esta é a página mais importante para o produtor cadastrado no sistema. Nela, será possível:</p>
+<ul class="simple">
+<li><p>Cadastrar, editar, excluir e alterar a viabilidade de produtos.</p></li>
+<li><p>Alterar o status de sua participação na feira corrente.</p></li>
+<li><p>Verificar suas vendas!</p></li>
+</ul>
+<p>Neste painel, o produtor tem controle total sobre suas operações relacionadas à feira e produtos.</p>
+<a class="reference internal image-reference" href="_images/pagina_produtor.png"><img alt="_images/pagina_produtor.png" src="_images/pagina_produtor.png" style="height: 400px;" /></a>
+<section id="cadastro-de-produto">
+<h2>Cadastro de Produto<a class="headerlink" href="#cadastro-de-produto" title="Link permanente para este cabeçalho"></a></h2>
+<p>Para cadastrar um produto na feira, basta clicar no botão <strong>CADASTRAR PRODUTO</strong> presente no painel, que em seguida será aberto um modal com os campos necessários para o cadastro de um produto. Conforme a imagem a seguir:</p>
+<img alt="_images/modal_cadastro_produto.png" src="_images/modal_cadastro_produto.png" />
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>É importante destacar que para o campo <strong>medida</strong> você precisa selecionar tanto a quantidade quanto a unidade. Ex.: 1 dúzia será 1 em quantidade e “Dúzia” em unidade.</p>
+</div>
+<p>Após o preenchimento de todos os campos será necessário fazer o upload de uma imagem para seu produto. Para fazer isto basta clicar em <strong>escolher imagem</strong> que você será redirecionado para os seus arquivos, onde você deve escolher uma imagem que representa seu produto.
+Em seguida será aberto uma área para você cortar a imagem da forma que você desejar.</p>
+<a class="reference internal image-reference" href="_images/cortar_imagem.png"><img alt="_images/cortar_imagem.png" src="_images/cortar_imagem.png" style="height: 300px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Apenas a área destacada será apresentada para o seu produto, as partes escuras serão cortadas. Portanto selecione a melhor parte da sua foto. Você pode dar zoom, ou rotacionar a imagem para melhor posicioná-la.</p>
+</div>
+<p>Ao concluir todos os passos acima basta clicar em <strong>CADASTRAR PRODUTO</strong> e esperar pela mensagem de confirmação de que seu produto foi cadastrado com sucesso.</p>
+</section>
+<section id="consultar-vendas">
+<h2>Consultar Vendas<a class="headerlink" href="#consultar-vendas" title="Link permanente para este cabeçalho"></a></h2>
+<p>O botão consultar vendas te redirecionará para a página <a class="reference internal" href="vendas-produtor.html"><span class="doc">Vendas do Produtor</span></a>. Referente a feira mais recente que você participou.</p>
+</section>
+<section id="alterar-participacao">
+<h2>Alterar Participação<a class="headerlink" href="#alterar-participacao" title="Link permanente para este cabeçalho"></a></h2>
+<img alt="_images/alterar_participacao.png" src="_images/alterar_participacao.png" />
+<p>Com o botão de alterar participação é possível desabilitar ou habilitar a participação do produtor na feira. Ao estar participando da feira, seus produtos serão apresentados normalmente para todos os usuários que acessarem o site. Ao desabilitar sua participação da feira, seus produtos não serão mais mostrados para nenhum usuário que acessar o site, até que seja habilitada novamente.</p>
+</section>
+<section id="seus-produtos">
+<h2>Seus Produtos<a class="headerlink" href="#seus-produtos" title="Link permanente para este cabeçalho"></a></h2>
+<p>Nesta seção do painel é possível visualizar todos os produtos que o produtor tem cadastrado no sistema. Separado por disponíveis/indisponíveis. Para cada produto apresentado nesta seção você pode:</p>
+<ul>
+<li><dl class="simple">
+<dt>Alterar informações do produto.</dt><dd><p>Ao clicar no lápis presente no card do produto, será aberto o mesmo modal de cadastro de produto com opção para você estar alterando cada informacão cadastrada.</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Excluir o produto.</dt><dd><p>Ao clicar no ícone da lixeira, você poderá excluir o seu produto do sistema.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Ao excluir seu produto ele será removido permanentemente do sistema.</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Alterar a disponibilidade do produto.</dt><dd><p>Ao clicar no ícone para alterar a disponibilidade do produto, você poderá deixá-lo indisponível temporariamente no sistema, de forma com que ele não aparece para os clientes que acessarem o sistema até que você o deixe disponível novamente.</p>
+<a class="reference internal image-reference" href="_images/card_produto.png"><img alt="_images/card_produto.png" src="_images/card_produto.png" style="height: 200px;" /></a>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
 </section>
 
 
@@ -108,7 +174,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Direitos autorais 2023, Henrique Gutler, Henrique Prezotti, João Paulo, Paulo Cesar, Mayara Carlini.</p>
+    <p>&#169; Copyright 2023, Henrique Gutler, Henrique Prezotti, João Paulo, Paulo Cesar, Mayara Carlini.</p>
   </div>
 
   Compilado com <a href="https://www.sphinx-doc.org/">Sphinx</a> usando um
