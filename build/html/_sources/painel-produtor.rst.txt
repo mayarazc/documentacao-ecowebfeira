@@ -9,7 +9,7 @@ O painel do produtor é a primeira página que aparecerá após o login com o ac
 
 Neste painel, o produtor tem controle total sobre suas operações relacionadas à feira e produtos.
 
-.. image:: _images/pagina_produtor.png
+.. figure:: _media/pagina_produtor.png
    :height: 400px
 
 ===================
@@ -18,7 +18,7 @@ Cadastro de Produto
 
 Para cadastrar um produto na feira, basta clicar no botão **CADASTRAR PRODUTO** presente no painel, que em seguida será aberto um modal com os campos necessários para o cadastro de um produto. Conforme a imagem a seguir:
 
-.. image:: _images/modal_cadastro_produto.png
+.. figure:: _media/modal_cadastro_produto.png
 
 .. note::
 
@@ -27,7 +27,7 @@ Para cadastrar um produto na feira, basta clicar no botão **CADASTRAR PRODUTO**
 Após o preenchimento de todos os campos será necessário fazer o upload de uma imagem para seu produto. Para fazer isto basta clicar em **escolher imagem** que você será redirecionado para os seus arquivos, onde você deve escolher uma imagem que representa seu produto.
 Em seguida será aberto uma área para você cortar a imagem da forma que você desejar.
 
-.. image:: _images/cortar_imagem.png
+.. figure:: _media/cortar_imagem.png
    :height: 300px
 
 .. note::
@@ -46,7 +46,7 @@ O botão consultar vendas te redirecionará para a página :doc:`vendas-produtor
 Alterar Participação
 ====================
 
-.. image:: _images/alterar_participacao.png
+.. figure:: _media/alterar_participacao.png
 
 Com o botão de alterar participação é possível desabilitar ou habilitar a participação do produtor na feira. Ao estar participando da feira, seus produtos serão apresentados normalmente para todos os usuários que acessarem o site. Ao desabilitar sua participação da feira, seus produtos não serão mais mostrados para nenhum usuário que acessar o site, até que seja habilitada novamente.
 
@@ -67,5 +67,5 @@ Nesta seção do painel é possível visualizar todos os produtos que o produtor
 - Alterar a disponibilidade do produto.
     Ao clicar no ícone para alterar a disponibilidade do produto, você poderá deixá-lo indisponível temporariamente no sistema, de forma com que ele não aparece para os clientes que acessarem o sistema até que você o deixe disponível novamente.
 
-    .. image:: _images/card_produto.png
+    .. figure:: _media/card_produto.png
         :height: 200px

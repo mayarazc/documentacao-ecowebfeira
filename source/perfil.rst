@@ -3,7 +3,7 @@ Perfil
 
 Ao clicar no ícone do perfil no cabeçalho do site, o produtor será redirecionado para a página mostrada na imagem abaixo.
 
-.. image:: _images/perfil.png
+.. figure:: _media/perfil.png
 
 =============
 Alterar Dados
@@ -11,7 +11,7 @@ Alterar Dados
 
 Para alterar seus dados basta clicar em **editar dados** que será aberto um modal com seus dados cadastrados no sitema. Você pode editá-los e depois clicar em **EDITAR DADOS** para confirmar a edição.
 
-.. image:: _images/editar_dados.png
+.. figure:: _media/editar_dados.png
 
 =============
 Editar Senha

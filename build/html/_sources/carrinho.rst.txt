@@ -9,7 +9,7 @@ Ação Solidária
 
 Nesta seção pode-se doar um valor para auxiliar famílias carentes do município de Santa Teresa. O valor será utilizado para compra de produtos saudáveis que serão doados posteriormente.
 
-.. image:: _images/acaosolidaria.png
+.. figure:: _media/acaosolidaria.png
 
 ===========
 Informações
@@ -17,7 +17,7 @@ Informações
 
 É obrigatório o preenchimento dos dados básicos do comprador. Também é possível selecionar a opção de recebimento e de pagamento. Caso o cliente deseje receber em sua casa, aparecem novos campos para informações do endereço.
 
-.. image:: _images/informacoes.png
+.. figure:: _media/informacoes.png
 
 ===========
 Observações
@@ -37,6 +37,6 @@ Resumo do Pedido
 
 Por fim, esse card mostra todos os itens selecionados e qual o valor total da compra.
 
-.. image:: _images/observacoesresumo.png
+.. figure:: _media/observacoesresumo.png
 
 
